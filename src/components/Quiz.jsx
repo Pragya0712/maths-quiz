@@ -47,7 +47,7 @@ const Quiz = ({ handleNext, quesNum, maxQues, maxValue, operators }) => {
 
 				<input
 					name='Your answer'
-					placeholder='Your answer'
+					placeholder='Enter your answer here...'
 					value={userInput}
 					onChange={handleChange}
 				/>

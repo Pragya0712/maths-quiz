@@ -110,6 +110,7 @@ const QuizArea = ({ id, calculateTotalScore }) => {
 					</>
 				) : (
 					<>
+						<h1> Final Score: {score}</h1>
 						<TableContainer component={Paper}>
 							<Table
 								sx={{ minWidth: 400 }}
