@@ -127,3 +127,4 @@ dist
 .pnp.*
 src/.DS_Store
 public/.DS_Store
+build/.DS_Store
