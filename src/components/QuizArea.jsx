@@ -163,7 +163,7 @@ const QuizArea = ({ id, calculateTotalScore }) => {
 							<label>Number of questions you want to attempt: </label>
 							<input
 								type='text'
-								placeholder='Number of questions you want to attempt...'
+								placeholder='Questions'
 								name='maxQues'
 								value={maxQues}
 								onChange={handleChange}
@@ -171,7 +171,7 @@ const QuizArea = ({ id, calculateTotalScore }) => {
 							<label>Max range of operands:</label>
 							<input
 								type='text'
-								placeholder='Max range of operands...'
+								placeholder='Operands'
 								name='maxValue'
 								value={maxValue}
 								onChange={handleChange}
@@ -179,7 +179,7 @@ const QuizArea = ({ id, calculateTotalScore }) => {
 							<label>Operators you want to practice with: </label>
 							<input
 								type='text'
-								placeholder='Operators you want to practice with...'
+								placeholder='Operators'
 								name='operators'
 								value={operators}
 								onChange={handleChange}
