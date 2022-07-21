@@ -1,0 +1,125 @@
+/* :root {
+	--primary-color: #7cb5c0;
+	--secondary-color: #79b4b7;
+	--dark-color: #112031;
+	--light-color: #d4ecdd;
+} */
+
+:root {
+	--primary-color: #79b4b7;
+	--secondary-color: #e3d9ca;
+	--dark-color: #9d9d9d;
+	--light-color: #fefbf3;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 1rem;
+	line-height: 1.6;
+	background-color: var(--dark-color);
+	background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+	color: #333;
+}
+
+h1 {
+	font-size: 1.8rem;
+	margin: revert;
+}
+
+span {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 50px;
+	margin: 80px;
+}
+
+.container h4 {
+	color: var(--light-color);
+}
+
+.quiz-container {
+	background-color: var(--light-color);
+	border-radius: 7px;
+	padding: 50px;
+	text-align: center;
+	box-shadow: 0 2px 5px #333;
+}
+
+.quiz-container h3 {
+	background-color: var(--primary-color);
+	box-shadow: 0 2px 5px #333;
+	border-radius: 7px;
+	min-width: 80px;
+	min-height: 80px;
+	padding: 20px;
+	margin: 10px;
+	display: inline-block;
+	font-size: 2rem;
+	line-height: 1.2;
+	margin-bottom: 1rem;
+}
+.quiz-container input {
+	background-color: var(--secondary-color);
+	width: 100%;
+	text-align: center;
+	box-shadow: 0 2px 5px #333;
+	outline: none;
+	border: none;
+	border-radius: 7px;
+	padding: 15px;
+	margin: 20px;
+	display: block;
+	font-size: 1rem;
+	line-height: 1.2;
+	margin-bottom: 1rem;
+}
+
+.btn {
+	display: inline-block;
+	background: var(--light-color);
+	color: #333;
+	box-shadow: 0 2px 5px #333;
+	padding: 0.7rem 1.3rem;
+	font-size: 1rem;
+	cursor: pointer;
+	border: none;
+	border-radius: 7px;
+	margin-top: 2rem;
+	margin-bottom: 10px;
+	transition: opacity 0.2s ease-in;
+}
+
+.btn:hover {
+	background: var(--dark-color);
+	color: var(--light-color);
+	opacity: 0.8;
+}
+
+/* Text Styles*/
+.x-large {
+	font-size: 4rem;
+	line-height: 1.2;
+	margin-bottom: 1rem;
+}
+
+.large {
+	font-size: 2rem;
+	line-height: 1.2;
+	margin-bottom: 1rem;
+}
+
+.lead {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
